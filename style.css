@@ -1,0 +1,43 @@
+body{
+    font-size: 20px;
+}
+#container{
+    height: 100%;
+    width: 15rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 20px;
+    position: relative;
+    top: 10rem;
+    background-color: rgb(39, 38, 38);
+    
+}
+#position{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.buttons_style{
+    height:3rem ;
+    width:3rem ;
+    font-size: 20px;
+    margin-top: 6.5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-bottom: 6px;
+    background-color:rgb(39, 38, 38);
+    border: none;
+    color: azure;
+
+}
+
+#lastbtn{
+    position: relative;
+    bottom: 28px;
+    left: -25px;
+}
